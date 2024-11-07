@@ -1,4 +1,4 @@
-/* Reset some basic styles */
+/* Reset some basic styles to ensure everything starts clean */
 * {
   margin: 0;
   padding: 0;
@@ -7,28 +7,27 @@
 
 /* Set the background color of the body to dark */
 body {
-  background-color: #121212;
+  background-color: #121212; /* Dark background */
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100vh;
-  font-family: 'Arial', sans-serif; /* Using Arial as a fallback */
-  color: white;
-  margin: 0;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align to the top of the screen */
+  height: 100vh; /* Make the body take up full screen height */
+  font-family: 'Arial', sans-serif; /* Use Arial as the fallback font */
+  color: white; /* Make text color white */
+  margin: 0; /* Remove default margin */
 }
 
-/* Center the text in the top middle of the screen */
+/* Style and position the text */
 #text-container {
   position: absolute;
-  top: 20px; /* Slightly offset from top */
-  left: 50%;
-  transform: translateX(-50%);
+  top: 20px; /* Set the distance from the top */
+  left: 50%; /* Position it in the middle horizontally */
+  transform: translateX(-50%); /* Offset it by half of its own width */
 }
 
-/* Style the text with the specified color, font, and size */
+/* Style the Dylon text */
 #dylon-text {
-  font-size: 80px; /* Made the text a little smaller */
+  font-size: 60px; /* Smaller text size */
   color: #ff0080; /* Pink color */
-  opacity: 1;
-  transition: opacity 1s ease-in-out; /* Fade-out effect (1 second) */
+  opacity: 1; /* Make sure the text is fully visible */
 }
