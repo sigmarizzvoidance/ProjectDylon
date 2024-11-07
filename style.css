@@ -27,8 +27,8 @@ body {
 
 /* Style the text with the specified color, font, and size */
 #dylon-text {
-  font-size: 120px;
+  font-size: 80px; /* Made the text a little smaller */
   color: #ff0080; /* Pink color */
   opacity: 1;
-  transition: opacity 2s ease-out; /* Smooth fade effect */
+  transition: opacity 1s ease-in-out; /* Fade-out effect (1 second) */
 }
