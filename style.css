@@ -29,5 +29,5 @@ body {
 #dylon-text {
   font-size: 60px; /* Smaller text size */
   color: #ff0080; /* Pink color */
-  opacity: 1; /* Make sure the text is fully visible */
+  /* No opacity change, so no transparency effects */
 }
